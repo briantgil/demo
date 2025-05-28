@@ -74,6 +74,7 @@ public class App extends Application {
 4. Update Your Maven pom.xml File
 
 ```xml
+<!-- inside build tags -->
 <plugin>
     <groupId>org.apache.maven.plugins</groupId>
     <artifactId>maven-shade-plugin</artifactId>
