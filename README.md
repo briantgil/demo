@@ -98,7 +98,7 @@ public class App extends Application {
 
 5. Building and Testing the .jar File
 
-```bash
+```powershell
 mvn clean
 #test
 mvn javafx:run -f pom.xml
@@ -109,4 +109,8 @@ mvn install
     - After running mvn install, you’ll find two .jar files in the target directory of your project
     - The .jar file that does not start with "original" is the executable .jar file that includes all your project’s dependencies
     - Navigate to the target directory in your project folder and double-click the .jar file
+  
+```powersehll
+java -jar path-to-jar\demo-1.0-SNAPSHOT.jar 
+```
 
